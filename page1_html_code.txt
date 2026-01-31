@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body onload="location.href='#top'">
+
+
+<div id="top"></div>
+
+<!-- HEADER / NAVBAR -->
+<header class="navbar">
+ <div><img src="logo.png" height="70" width="70" alt="puma_logo"></div>
+ <nav class="menu">
+  <div class="dropdown">
+   <button class="dropbtn">ABOUT</button>
+   <div class="dropdown-content">
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#work">My Work</a>
+   </div>
+  </div>
+
+  <div class="dropdown">
+   <a href="#projects" class="dropbtn">PROJECTS</a>
+  </div>
+
+  <div class="dropdown">
+   <a href="#contact" class="dropbtn">CONTACT</a>
+  </div>
+
+   </nav>
+</header><br><br>
+
+
+
+  <div class="image-container2">
+   <img src="i1.png">
+  </div><br><br>
+
+
+<section id="about">
+<h2 class="education" style="font-size: 35px">👤 About Me</h2>
+
+<div class="profile-section">
+  <div class="profile-image">
+    <img src="girl.gif" alt="Profile Image">
+  </div>
+
+  <div class="profile-text">
+    <h2>NOELLA PEREIRA</h2>
+    <p>
+      AN ASPIRING ENGINEER OF FR. CONCEICAO RODRIGUES COLLEGE OF ENGINEERING, MUMBAI. MY HOBBIES INCLUDE MUSIC AND ART. MATHS, GEOLOGY, OOPJ, IOT ARE SOME OF MY MOST FAVOURITE SUBJECTS.
+    </p>
+  </div>
+</div>
+</section>
+
+
+<section class="education" id="education">
+  <h2>🎓 Education</h2>
+
+  <div class="edu-container">
+
+    <div class="edu-card">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>Bachelor of Technology</h3>
+      <p class="college">Fr. Conceicao Rodrigues College of Engineering Bandra, Mumbai</p>
+      <p class="year">2024 – present</p>
+      <p class="desc">Computer Engineering</p>
+    </div>
+
+    <div class="edu-card">
+      <i class="fas fa-school"></i>
+      <h3>Higher Secondary School</h3>
+      <p class="college">St. Xavier's College Fort, Mumbai</p>
+      <p class="year">2022 – 2024</p>
+      <p class="desc">Science Stream</p>
+    </div>
+
+    <div class="edu-card">
+      <i class="fas fa-book"></i>
+      <h3>School</h3>
+      <p class="college">St. Joseph's High School Vikhroli, Mumbai</p>
+      <p class="year">2010 – 2022</p>
+      <p class="desc">General Studies</p>
+    </div>
+
+  </div>
+</section><br><br>
+
+<section id="work">
+<h2 class="education" style="font-size: 35px">🎯 My Work</h2><br><br><br>
+
+<div class="scroll-container"> 
+ <div class="scroll-track"> 
+  <img src="i2.jpeg"> 
+  <img src="i3.jpeg"> 
+  <img src="i4.jpeg"> 
+  <img src="i5.jpeg">  
+  <img src="i13.jpeg"> 
+  <img src="i8.jpeg"> 
+  <img src="i9.jpeg"> 
+  <img src="i11.jpeg"> 
+  <img src="i12.jpeg"> 
+  <img src="i7.jpeg">
+   </div> 
+</div>
+</section><br><br><br>
+
+
+<section class="projects" id="projects">
+  <h2><i class="fas fa-briefcase"></i> Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="i15.jpeg" alt="Project 1">
+      <div class="project-content">
+        <h3>IoT-Enabled Plant Irrigation System</h3>
+        <p>
+          An IoT-based Soil-Moisture-Based Plant Watering System with NodeMCU ESP8266; that controls a water pump based on the amount of moisture present in the soil i.e if soil moisture is high, pump will remain OFF, if low, pump will turn ON. It's completely an IoT-based project that uses a Soil moisture sensor, an ESP8266 microcontroller and a Blynk App for users.
+        </p>
+        <a href="" target="_blank">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="i14.jpeg" alt="Project 2">
+      <div class="project-content">
+        <h3>Satellite Monitoring and Communication System</h3>
+        <p>
+          A system that monitors a satellite system by registering in satellites names and their positions in space, and detecting whether there are any possible collisions between two or more satellites, as well as sends a communication signal from one satellite to another satellite or sends a signal from satellite to earth based on priority. It's tech stack includes a C program with concepts of Linked List, Binary Search Tree and Queues used.
+        </p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="i16.jpeg" alt="Project 3">
+      <div class="project-content">
+        <h3>Lost and Found App</h3>
+        <p>
+          An app created in Java that stores the data of Lost and Found items such as date, place, name of the lost/found item, image of that item, contact details etc, in our college, thus helping students to find their respective lost items.
+        </p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section><br><br>
+
+<section class="contact" id="contact">
+  <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+  
+
+
+<footer class="footer">
+  <div class="footer-content">
+
+    <!-- Social Media Icons -->
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/noella-pereira-736a34372/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/noellapereira" aria-label="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="copyright">
+      © 2026 Noella Pereira. All Rights Reserved.
+    </p>  
+
+  </div>
+</footer>
+
+
+</body>
+</html>
